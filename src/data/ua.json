@@ -1,0 +1,133 @@
+{
+  "hero": {
+    "name": "Артем Стахов",
+    "greeting": "Привіт, я Артем — Інженер програмного забезпечення з бакалавром та магістром у сфері програмної інженерії. Захоплююся веб-розробкою, автоматизацією та ШІ.",
+    "image": "/images/artem.jpg"
+  },  "roadmapTitle": "Роадмап",
+  "experienceTitle": "Досвід роботи",
+  "certificatesTitle": "Сертифікати",
+  "personalTitle": "Про мене",
+  "contactTitle": "Контакти",
+  "interestsTitle": "Інтереси",
+  "locationTitle": "Місцезнаходження",
+  "contact": {
+    "nameLabel": "Ім'я",
+    "emailLabel": "Email",
+    "messageLabel": "Повідомлення",
+    "namePlaceholder": "Ваше ім'я",
+    "emailPlaceholder": "ваш@email.com",
+    "messagePlaceholder": "Ваше повідомлення...",
+    "sendButton": "Надіслати повідомлення",
+    "sendingText": "Надсилання...",
+    "successMessage": "Повідомлення надіслано!",
+    "errorMessage": "Помилка надсилання повідомлення"
+  },  "roadmap": [
+    {
+      "year": "2003",
+      "title": "Народження",
+      "description": "Народився у 2003 році в Луганській області, Україна."
+    },
+    {
+      "year": "2009-2018",
+      "title": "Школа",
+      "description": "Навчався у школі в Нижньому Теплому, Луганська область. Отримав базові знання з математики та наук."
+    },
+    {
+      "year": "2018-2020",
+      "title": "Технікум",
+      "description": "Навчався у Коледжі інженерії та технологій у Сєвєродонецьку, при університеті ім. В.Даля. Вивчав дискретну математику, Паскаль, математичний аналіз тощо. Дав хороший старт у програмуванні."
+    },
+    {
+      "year": "2020-2024",
+      "title": "Бакалавр",
+      "description": "Бакалавр програмної інженерії в Ужгородському національному університеті. Загальний бал: 75%, Диплом захищений на 5 (90-100%)."
+    },
+    {
+      "year": "2024-2025",
+      "title": "Магістр",
+      "description": "Магістр програмної інженерії в Ужгородському національному університеті. Очікуваний бал близько 85%, Диплом буде захищений на 5 (90-100%)."
+    },
+    {
+      "year": "2022",
+      "title": "Початок фрілансу",
+      "description": "Почав як фрілансер фронтенд-розробник. Створював лендінги з HTML, JS, Sass. Проект: https://github.com/artemstakhov/hadar_front"
+    },
+    {
+      "year": "2023-2025",
+      "title": "CityUnscripted",
+      "description": "Фронтенд-розробник у CityUnscripted (Україна-Великобританія). Працював з React, Redux, JS, jQuery. Став провідним React-розробником, займався дизайном, React Native додатком, тестами на Cypress."
+    },
+    {
+      "year": "2024-2025",
+      "title": "InkoMenu Фріланс",
+      "description": "Тех-лід у InkoMenu (Україна). Розробляв адмін-панель та клієнтський сайт з React, Redux. Займався перекладами, темами, кастомними компонентами."
+    },
+    {
+      "year": "2025",
+      "title": "Переїзд до Литви",
+      "description": "Переїхав до Литви у вересні 2025 року, живу в Йонаві, районі Каунаса. Почав вивчати n8n та автоматизацію. Створив медіа-ферму з ШІ в Telegram, генерацію відео з транскрипцією."
+    }
+  ],
+  "skills": {
+    "title": "Навички",
+    "hardSkillsTitle": "Технічні навички",
+    "softSkillsTitle": "М'які навички",
+    "hardSkills": {
+      "Фронтенд": ["React", "Next.js", "React Native", "HTML", "CSS", "Sass", "jQuery", "Tailwind CSS", "JavaScript", "TypeScript"],
+      "Бекенд": ["Node.js", "NestJS", "MongoDB", "PostgreSQL", "MySQL", "Express.js"],
+      "Інструменти та технології": ["Postman", "Linux", "Git", "GitHub Actions", "Docker", "Автоматизація (n8n)", "Інтеграція ШІ"]
+    },
+    "softSkills": ["Вирішення проблем", "Комунікація", "Командна робота", "Лідерство", "Управління часом", "Адаптивність", "Креативність", "Критичне мислення", "Емоційний інтелект", "Управління проектами"]
+  },
+  "experience": [
+    {
+      "company": "CityUnscripted",
+      "period": "2023-2025",
+      "role": "Фронтенд-розробник / Провідний React-розробник",
+      "description": "Проектував та розробляв фічі та сторінки з/без дизайну. Використовував React, Redux, JS, jQuery. Включав модали, анімації, адаптивний дизайн. Займався дизайном, React Native додатком, тестами на Cypress. Став провідним для React SPA."
+    },
+    {
+      "company": "InkoMenu",
+      "period": "2024-2025",
+      "role": "Фронтенд-розробник / Тех-лід",
+      "description": "Проектував та розробляв адмін-панель та клієнтський сайт з Figma. Використовував React, Redux, JS. Включав переклади, теми, кастомні компоненти, анімації. Ревьюив бекенд код."
+    },
+    {
+      "company": "Фріланс",
+      "period": "2022",
+      "role": "Фронтенд-розробник",
+      "description": "Створив лендінг з додатковою сторінкою з нуля. Чистий JS, HTML, Sass. Модали, анімації скролла, адаптивний дизайн. Проект: https://github.com/artemstakhov/hadar_front"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Web-developer",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-1e0e074f-37e0-4005-aae7-49efbb3887c9/"
+    },
+    {
+      "name": "Повний курс React та JavaScript",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-f189ea57-56ba-4c9a-af83-6b5f5f230735/"
+    },
+    {
+      "name": "Розуміння TypeScript",
+      "issuer": "Udemy",
+      "link": "https://ua.udemy.com/certificate/UC-0b076ff5-27e0-4d67-a6eb-ed00eac98385/"
+    },
+    {
+      "name": "Успішний стартап: Від ідеї до масштабування",
+      "issuer": "Prometheus",
+      "link": "https://certs.prometheus.org.ua/downloads/326f5083a75a4ef2862ca0f0a661ca12/Certificate.pdf"
+    },
+    {
+      "name": "Основи програмування CS50 2019",
+      "issuer": "Prometheus",
+      "link": "https://certs.prometheus.org.ua/downloads/bbb98277eb314698a061446bdbd372fd/Certificate.pdf"
+    }
+  ],
+  "personal": {
+    "interests": ["Психологія", "Бізнес", "Читання", "Змішані єдиноборства", "Шахи", "Спорт", "Технології", "ШІ"],
+    "location": "Йонава, район Каунаса, Литва"
+  }
+}

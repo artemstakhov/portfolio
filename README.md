@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
+
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features a dark theme with bright turquoise accents, parallax roadmap, multi-language support (EN/RU/UA), and contact form integrated with n8n webhook for Telegram notifications.
+
+## Features
+
+- **Hero Section**: Animated introduction with photo, name, and greeting
+- **Roadmap**: Parallax timeline from present to past showcasing career milestones
+- **Skills**: Grid display of technical skills
+- **Experience**: Detailed work experience sections
+- **Certificates**: Links to certifications
+- **Personal**: Interests and location
+- **Contact**: Form that sends messages via n8n to Telegram
+- **Multi-language**: Switch between English, Russian, and Ukrainian
+
+## Tech Stack
+
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion (animations & parallax)
+- React Hook Form
+- Axios
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Configuration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Update `/data/*.json` files with your information
+- Replace placeholder image in `/public/images/`
+- Set up n8n webhook URL in `/src/app/api/contact/route.ts`
+- Customize colors in `tailwind.config.js`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deploy to Vercel, Netlify, or your own server. Ensure n8n is running and webhook URL is configured.
 
-## Learn More
+## n8n Integration
 
-To learn more about Next.js, take a look at the following resources:
+1. Install n8n on your server
+2. Create a workflow: Webhook → Telegram
+3. Update the webhook URL in the contact API route
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT

@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "name": "Artem Stakhov",
+    "greeting": "Hello, I'm Artem Stakhov — Software Engineer with Bachelor's and Master's degrees in Software Engineering. Passionate about web development, automation, and AI.",
+    "image": "/images/artem.jpg"
+  },
+  "roadmapTitle": "Roadmap",
+  "experienceTitle": "Experience",
+  "certificatesTitle": "Certificates",
+  "personalTitle": "About Me",
+  "contactTitle": "Contact",
+  "roadmap": [
+    {
+      "year": "2009-2018",
+      "title": "School",
+      "description": "Attended school in Nyzhniy Teplyi, Luhansk region. Developed foundational knowledge in mathematics and sciences."
+    },
+    {
+      "year": "2018-2020",
+      "title": "College",
+      "description": "Studied at College of Engineering and Technology in Severodonetsk, affiliated with V.Dal University. Learned discrete mathematics, Pascal, mathematical analysis, and more. Gave a strong start in programming."
+    },
+    {
+      "year": "2020-2024",
+      "title": "Bachelor's Degree",
+      "description": "Bachelor's in Software Engineering at Uzhhorod National University. Overall grade: 75%, Diploma defended with 5 (90-100%)."
+    },
+    {
+      "year": "2024-2026",
+      "title": "Master's Degree",
+      "description": "Master's in Software Engineering at Uzhhorod National University. Expected grade around 85%, Diploma to be defended with 5 (90-100%)."
+    },
+    {
+      "year": "2022",
+      "title": "Freelance Start",
+      "description": "Started as a freelance front-end developer. Created landing pages with HTML, JS, Sass. Project: https://github.com/artemstakhov/hadar_front"
+    },
+    {
+      "year": "2023-2026",
+      "title": "CityUnscripted",
+      "description": "Front-end Developer at CityUnscripted (Ukraine-UK). Worked with React, Redux, JS, jQuery. Became lead React developer, handled design, React Native app, Cypress tests."
+    },
+    {
+      "year": "2024-2026",
+      "title": "InkoMenu Freelance",
+      "description": "Tech Lead at InkoMenu (Ukraine). Developed admin panel and client site with React, Redux. Handled translations, themes, custom components."
+    },
+    {
+      "year": "2026",
+      "title": "Relocation to Lithuania",
+      "description": "Moved to Lithuania in September 2026, living in Jonava, Kaunas district. Started learning n8n and automation. Built media farm with AI in Telegram, video generation with transcription."
+    }
+  ],
+  "skills": {
+    "title": "Skills",
+    "hardSkillsTitle": "Hard Skills",
+    "softSkillsTitle": "Soft Skills",
+    "hardSkills": {
+      "Frontend": ["React", "Next.js", "React Native", "HTML", "CSS", "Sass", "jQuery", "Tailwind CSS", "JavaScript", "TypeScript"],
+      "Backend": ["Node.js", "NestJS", "MongoDB", "PostgreSQL", "MySQL", "Express.js"],
+      "Tools & Technologies": ["Postman", "Linux", "Git", "GitHub Actions", "Docker", "Automation (n8n)", "AI Integration"]
+    },
+    "softSkills": ["Problem Solving", "Communication", "Teamwork", "Leadership", "Time Management", "Adaptability", "Creativity", "Critical Thinking", "Emotional Intelligence", "Project Management"]
+  },
+  "experience": [
+    {
+      "company": "CityUnscripted",
+      "period": "2023-2026",
+      "role": "Front-end Developer / Lead React Developer",
+      "description": "Designed and developed features and pages with/without design. Used React, Redux, JS, jQuery. Included modals, animations, responsive design. Handled design, React Native app, Cypress tests. Became lead for React SPA."
+    },
+    {
+      "company": "InkoMenu",
+      "period": "2024-2026",
+      "role": "Front-end Developer / Tech Lead",
+      "description": "Designed and developed admin panel and client site with Figma. Used React, Redux, JS. Included translations, themes, custom components, animations. Reviewed backend code."
+    },
+    {
+      "company": "Freelance",
+      "period": "2022",
+      "role": "Front-end Developer",
+      "description": "Created landing page with additional page from scratch. Pure JS, HTML, Sass. Modals, scroll animations, responsive design. Project: https://github.com/artemstakhov/hadar_front"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Web-developer",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-1e0e074f-37e0-4005-aae7-49efbb3887c9/"
+    },
+    {
+      "name": "Full course of React and JavaScript",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-f189ea57-56ba-4c9a-af83-6b5f5f230735/"
+    },
+    {
+      "name": "Understanding TypeScript",
+      "issuer": "Udemy",
+      "link": "https://ua.udemy.com/certificate/UC-0b076ff5-27e0-4d67-a6eb-ed00eac98385/"
+    },
+    {
+      "name": "Successful Startup: From Idea to Scaling",
+      "issuer": "Prometheus",
+      "link": "https://certs.prometheus.org.ua/downloads/326f5083a75a4ef2862ca0f0a661ca12/Certificate.pdf"
+    },
+    {
+      "name": "Basics of Programming CS50 2019",
+      "issuer": "Prometheus",
+      "link": "https://certs.prometheus.org.ua/downloads/bbb98277eb314698a061446bdbd372fd/Certificate.pdf"
+    }
+  ],
+  "interestsTitle": "Interests",
+  "locationTitle": "Location",
+  "contact": {
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Your message...",
+    "sendButton": "Send Message",
+    "sendingText": "Sending...",
+    "successMessage": "Message sent!",
+    "errorMessage": "Error sending message"
+  },
+  "personal": {
+    "interests": ["Psychology", "Business", "Reading", "Mixed Martial Arts", "Chess", "Sports", "Technology", "AI"],
+    "location": "Jonava, Kaunas district, Lithuania"
+  }
+}
