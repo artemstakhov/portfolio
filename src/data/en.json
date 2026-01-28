@@ -1,59 +1,99 @@
 {
     "hero": {
         "name": "Artem Stakhov",
-        "greeting": "Hello, I'm Artem Stakhov — Software Engineer with Bachelor's and Master's degrees in Software Engineering. Passionate about web development, automation, and AI.",
+        "greeting": "Hi! I'm Artem Stakhov — a Software Engineer with Bachelor's and Master's degrees in Software Engineering. I'm passionate about web development, automation, and artificial intelligence.",
         "image": "/images/artem.jpg"
     },
-    "roadmapTitle": "Roadmap",
-    "experienceTitle": "Experience",
+    "roadmapTitle": "Development Plan",
+    "experienceTitle": "Work Experience",
     "certificatesTitle": "Certificates",
     "personalTitle": "About Me",
     "contactTitle": "Contact",
+    "interestsTitle": "Interests",
+    "locationTitle": "Location",
+    "contact": {
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "messageLabel": "Message",
+        "namePlaceholder": "Your name",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Enter your message...",
+        "sendButton": "Send",
+        "sendingText": "Sending...",
+        "successMessage": "Message sent successfully!",
+        "errorMessage": "Error sending message",
+        "phoneValidationError": "Invalid phone number format",
+        "emailValidationError": "Invalid email format",
+        "telegramValidationError": "Invalid Telegram format",
+        "whatsappValidationError": "Invalid WhatsApp format",
+        "linkedinValidationError": "Invalid LinkedIn format",
+        "portfolioValidationError": "Invalid website format",
+        "addFieldButton": "Add Field",
+        "removeFieldButton": "Remove",
+        "fieldTypes": {
+            "phone": "Company Phone",
+            "telegram": "Company Telegram",
+            "whatsapp": "Company WhatsApp",
+            "linkedin": "Company LinkedIn",
+            "portfolio": "Company Website",
+            "cv": "Job Description/Requirements (PDF)",
+            "other": "Additional Information"
+        },
+        "fieldPlaceholders": {
+            "phone": "+1234567890",
+            "telegram": "@company_channel",
+            "whatsapp": "+1234567890",
+            "linkedin": "https://linkedin.com/company/name",
+            "portfolio": "https://company.com",
+            "cv": "Upload job description",
+            "other": "Additional requirements or information"
+        }
+    },
     "roadmap": [
         {
             "year": "2009-2018",
             "title": "School",
-            "description": "Attended school in Nyzhniy Teplyi, Luhansk region. Developed foundational knowledge in mathematics and sciences."
+            "description": "Attended school in Nyzhniy Teplyi, Luhansk region. Gained foundational knowledge in mathematics and natural sciences."
         },
         {
             "year": "2018-2020",
             "title": "College",
-            "description": "Studied at College of Engineering and Technology in Severodonetsk, affiliated with V.Dal University. Learned discrete mathematics, Pascal, mathematical analysis, and more. Gave a strong start in programming."
+            "description": "Studied at the College of Engineering and Technology in Severodonetsk, affiliated with V. Dal University. Learned discrete mathematics, Pascal programming, mathematical analysis, and more. Built a strong foundation in programming."
         },
         {
             "year": "2020-2024",
             "title": "Bachelor's Degree",
-            "description": "Bachelor's in Software Engineering at Uzhhorod National University. Overall grade: 75%, Diploma defended with 5 (90-100%)."
+            "description": "Earned a Bachelor's degree in Software Engineering from Uzhhorod National University. Overall grade: 75%, Diploma defended with distinction (90-100%)."
         },
         {
             "year": "2024-2026",
             "title": "Master's Degree",
-            "description": "Master's in Software Engineering at Uzhhorod National University. Expected grade around 85%, Diploma to be defended with 5 (90-100%)."
+            "description": "Pursuing a Master's degree in Software Engineering at Uzhhorod National University. Expected grade: around 85%, Diploma to be defended with distinction (90-100%)."
         },
         {
             "year": "2022",
             "title": "Freelance Start",
-            "description": "Started as a freelance front-end developer. Created landing pages with HTML, JS, Sass. Project: https://github.com/artemstakhov/hadar_front"
+            "description": "Started working as a freelance front-end developer. Created landing pages using HTML, JavaScript, and Sass. Project example: https://github.com/artemstakhov/hadar_front"
         },
         {
             "year": "2023-2026",
             "title": "CityUnscripted",
-            "description": "Front-end Developer at CityUnscripted (Ukraine-UK). Worked with React, Redux, JS, jQuery. Became lead React developer, handled design, React Native app, Cypress tests."
+            "description": "Worked as a Front-end Developer at CityUnscripted (Ukraine-UK). Used React, Redux, JavaScript, and jQuery. Became the lead React developer, managed design, developed a React Native app, and wrote Cypress tests."
         },
         {
             "year": "2024-2026",
             "title": "InkoMenu Freelance",
-            "description": "Tech Lead at InkoMenu (Ukraine). Developed admin panel and client site with React, Redux. Handled translations, themes, custom components."
+            "description": "Served as Tech Lead at InkoMenu (Ukraine). Developed an admin panel and client site using React and Redux. Worked on translations, themes, and custom components."
         },
         {
             "year": "2026",
             "title": "Relocation to Lithuania",
-            "description": "Moved to Lithuania in September 2026, living in Jonava, Kaunas district. Started learning n8n and automation. Built media farm with AI in Telegram, video generation with transcription."
+            "description": "Moved to Lithuania in September 2026, now living in Jonava, Kaunas district. Started learning n8n and automation. Built a media farm using AI in Telegram and developed a video generation system with transcription."
         }
     ],
     "skills": {
         "title": "Skills",
-        "hardSkillsTitle": "Hard Skills",
+        "hardSkillsTitle": "Technical Skills",
         "softSkillsTitle": "Soft Skills",
         "hardSkills": {
             "Frontend": [
@@ -88,8 +128,8 @@
         },
         "softSkills": [
             "Problem Solving",
-            "Communication",
-            "Teamwork",
+            "Effective Communication",
+            "Team Collaboration",
             "Leadership",
             "Time Management",
             "Adaptability",
@@ -104,29 +144,29 @@
             "company": "CityUnscripted",
             "period": "2023-2026",
             "role": "Front-end Developer / Lead React Developer",
-            "description": "Designed and developed features and pages with/without design. Used React, Redux, JS, jQuery. Included modals, animations, responsive design. Handled design, React Native app, Cypress tests. Became lead for React SPA."
+            "description": "Designed and developed features and pages from scratch or based on provided designs. Used React, Redux, JavaScript, and jQuery. Implemented modals, animations, and responsive design. Managed design, developed a React Native app, and wrote Cypress tests."
         },
         {
             "company": "InkoMenu",
             "period": "2024-2026",
             "role": "Front-end Developer / Tech Lead",
-            "description": "Designed and developed admin panel and client site with Figma. Used React, Redux, JS. Included translations, themes, custom components, animations. Reviewed backend code."
+            "description": "Designed and developed an admin panel and client site based on Figma designs. Used React, Redux, and JavaScript. Implemented translations, themes, custom components, and animations. Reviewed backend code."
         },
         {
             "company": "Freelance",
             "period": "2022",
             "role": "Front-end Developer",
-            "description": "Created landing page with additional page from scratch. Pure JS, HTML, Sass. Modals, scroll animations, responsive design. Project: https://github.com/artemstakhov/hadar_front"
+            "description": "Created a landing page with an additional page from scratch. Used pure JavaScript, HTML, and Sass. Implemented modals, scroll animations, and responsive design. Project example: https://github.com/artemstakhov/hadar_front"
         }
     ],
     "certificates": [
         {
-            "name": "Web-developer",
+            "name": "Web Developer",
             "issuer": "Udemy",
             "link": "https://www.udemy.com/certificate/UC-1e0e074f-37e0-4005-aae7-49efbb3887c9/"
         },
         {
-            "name": "Full course of React and JavaScript",
+            "name": "Complete React and JavaScript Course",
             "issuer": "Udemy",
             "link": "https://www.udemy.com/certificate/UC-f189ea57-56ba-4c9a-af83-6b5f5f230735/"
         },
@@ -141,51 +181,11 @@
             "link": "https://certs.prometheus.org.ua/downloads/326f5083a75a4ef2862ca0f0a661ca12/Certificate.pdf"
         },
         {
-            "name": "Basics of Programming CS50 2019",
+            "name": "CS50: Introduction to Computer Science (2019)",
             "issuer": "Prometheus",
             "link": "https://certs.prometheus.org.ua/downloads/bbb98277eb314698a061446bdbd372fd/Certificate.pdf"
         }
     ],
-    "interestsTitle": "Interests",
-    "locationTitle": "Location",
-    "contact": {
-        "nameLabel": "Name",
-        "emailLabel": "Email",
-        "messageLabel": "Message",
-        "namePlaceholder": "Your name",
-        "emailPlaceholder": "your@email.com",
-        "messagePlaceholder": "Your message...",
-        "sendButton": "Send Message",
-        "sendingText": "Sending...",
-        "successMessage": "Message sent!",
-        "errorMessage": "Error sending message",
-        "phoneValidationError": "Invalid phone format",
-        "emailValidationError": "Invalid email format",
-        "telegramValidationError": "Invalid Telegram format",
-        "whatsappValidationError": "Invalid WhatsApp format",
-        "linkedinValidationError": "Invalid LinkedIn format",
-        "portfolioValidationError": "Invalid website format",
-        "addFieldButton": "Add Field",
-        "removeFieldButton": "Remove",
-        "fieldTypes": {
-            "phone": "Company Phone",
-            "telegram": "Company Telegram",
-            "whatsapp": "Company WhatsApp",
-            "linkedin": "Company LinkedIn",
-            "portfolio": "Company Website",
-            "cv": "Job Description/TZ (PDF)",
-            "other": "Additional Info"
-        },
-        "fieldPlaceholders": {
-            "phone": "+1234567890",
-            "telegram": "@company_channel",
-            "whatsapp": "+1234567890",
-            "linkedin": "https://linkedin.com/company/name",
-            "portfolio": "https://company.com",
-            "cv": "Upload job description",
-            "other": "Additional requirements or info"
-        }
-    },
     "personal": {
         "interests": [
             "Psychology",
@@ -195,7 +195,7 @@
             "Chess",
             "Sports",
             "Technology",
-            "AI"
+            "Artificial Intelligence"
         ],
         "location": "Jonava, Kaunas district, Lithuania"
     }
