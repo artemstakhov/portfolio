@@ -2,7 +2,9 @@ name: Deploy Portfolio to Server
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+  # Добавляем кнопку ручного запуска (на всякий случай)
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -11,18 +13,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Важно явно указать версию Node, чтобы сборка была предсказуемой
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: "20"
+          cache: "npm"
 
       - name: Install dependencies
-        run: npm ci # ci работает быстрее и надежнее чем install для CI/CD
+        run: npm ci
 
       - name: Build project
         run: npm run build
+        # ВАЖНО: Этот шаг создаст папку 'out'.
+        # Убедись, что в next.config.js написано: output: 'export'
 
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.9.0
@@ -34,15 +37,15 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
 
-      # Создаем папку на сервере, если её нет (чтобы scp не ругался)
+      # 1. Создаем папку на сервере (флаг -p не выдаст ошибку, если она уже есть)
       - name: Create folder on server
         run: ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} "mkdir -p /root/portfolio"
 
-      # Чистим старые файлы перед заливкой (опционально, но полезно)
+      # 2. Удаляем старые файлы перед заливкой (чтобы сайт был чистым)
       - name: Clean old files
         run: ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} "rm -rf /root/portfolio/*"
 
-      # Копируем новые файлы
+      # 3. Копируем новые файлы из папки out
       - name: Deploy Files
         run: |
           scp -r out/* ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/root/portfolio/
