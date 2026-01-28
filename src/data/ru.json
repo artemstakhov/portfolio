@@ -1,133 +1,207 @@
 {
-  "hero": {
-    "name": "Артем Стахов",
-    "greeting": "Привет, я Артем Стахов — Инженер программного обеспечения с бакалавром и магистром в области программной инженерии. Увлекаюсь веб-разработкой, автоматизацией и ИИ.",
-    "image": "/images/artem.jpg"
-  },  "roadmapTitle": "Дорожная карта",
-  "experienceTitle": "Опыт работы",
-  "certificatesTitle": "Сертификаты",
-  "personalTitle": "Обо мне",
-  "contactTitle": "Контакты",
-  "interestsTitle": "Интересы",
-  "locationTitle": "Местоположение",
-  "contact": {
-    "nameLabel": "Имя",
-    "emailLabel": "Email",
-    "messageLabel": "Сообщение",
-    "namePlaceholder": "Ваше имя",
-    "emailPlaceholder": "ваш@email.com",
-    "messagePlaceholder": "Ваше сообщение...",
-    "sendButton": "Отправить сообщение",
-    "sendingText": "Отправка...",
-    "successMessage": "Сообщение отправлено!",
-    "errorMessage": "Ошибка отправки сообщения"
-  },  "roadmap": [
-    {
-      "year": "2003",
-      "title": "Рождение",
-      "description": "Родился в 2003 году в Луганской области, Украина."
+    "hero": {
+        "name": "Артем Стахов",
+        "greeting": "Привет, я Артем Стахов — Инженер программного обеспечения с бакалавром и магистром в области программной инженерии. Увлекаюсь веб-разработкой, автоматизацией и ИИ.",
+        "image": "/images/artem.jpg"
     },
-    {
-      "year": "2009-2018",
-      "title": "Школа",
-      "description": "Учился в школе в Нижнем Теплом, Луганская область. Получил базовые знания в математике и науках."
+    "roadmapTitle": "Роадмап",
+    "experienceTitle": "Опыт работы",
+    "certificatesTitle": "Сертификаты",
+    "personalTitle": "Обо мне",
+    "contactTitle": "Контакты",
+    "interestsTitle": "Интересы",
+    "locationTitle": "Местоположение",
+    "contact": {
+        "nameLabel": "Имя",
+        "emailLabel": "Email",
+        "messageLabel": "Сообщение",
+        "namePlaceholder": "Ваше имя",
+        "emailPlaceholder": "ваш@email.com",
+        "messagePlaceholder": "Ваше сообщение...",
+        "sendButton": "Отправить сообщение",
+        "sendingText": "Отправка...",
+        "successMessage": "Сообщение отправлено!",
+        "errorMessage": "Ошибка отправки сообщения",
+        "phoneValidationError": "Неверный формат телефона",
+        "emailValidationError": "Неверный формат email",
+        "telegramValidationError": "Неверный формат Telegram",
+        "whatsappValidationError": "Неверный формат WhatsApp",
+        "linkedinValidationError": "Неверный формат LinkedIn",
+        "portfolioValidationError": "Неверный формат сайта",
+        "addFieldButton": "Добавить поле",
+        "removeFieldButton": "Удалить",
+        "fieldTypes": {
+            "phone": "Телефон компании",
+            "telegram": "Telegram компании",
+            "whatsapp": "WhatsApp компании",
+            "linkedin": "LinkedIn компании",
+            "portfolio": "Сайт компании",
+            "cv": "Описание вакансии/ТЗ (PDF)",
+            "other": "Дополнительная информация"
+        },
+        "fieldPlaceholders": {
+            "phone": "+71234567890",
+            "telegram": "@company_channel",
+            "whatsapp": "+71234567890",
+            "linkedin": "https://linkedin.com/company/name",
+            "portfolio": "https://company.com",
+            "cv": "Загрузите описание вакансии",
+            "other": "Дополнительные требования или информация"
+        }
     },
-    {
-      "year": "2018-2020",
-      "title": "Техникум",
-      "description": "Учился в Колледже инженерии и технологий в Северодонецке, при университете им. В.Даля. Изучал дискретную математику, Паскаль, математический анализ и др. Дал хороший старт в программировании."
+    "roadmap": [
+        {
+            "year": "2003",
+            "title": "Рождение",
+            "description": "Родился в 2003 году в Луганской области, Украина."
+        },
+        {
+            "year": "2009-2018",
+            "title": "Школа",
+            "description": "Учился в школе в Нижнем Теплом, Луганская область. Получил базовые знания в математике и науках."
+        },
+        {
+            "year": "2018-2020",
+            "title": "Техникум",
+            "description": "Учился в Колледже инженерии и технологий в Северодонецке, при университете им. В.Даля. Изучал дискретную математику, Паскаль, математический анализ и др. Дал хороший старт в программировании."
+        },
+        {
+            "year": "2020-2024",
+            "title": "Бакалавр",
+            "description": "Бакалавр программной инженерии в Ужгородском национальном университете. Общий балл: 75%, Диплом защищен на 5 (90-100%)."
+        },
+        {
+            "year": "2024-2025",
+            "title": "Магистр",
+            "description": "Магистр программной инженерии в Ужгородском национальном университете. Ожидаемый балл около 85%, Диплом будет защищен на 5 (90-100%)."
+        },
+        {
+            "year": "2022",
+            "title": "Начало фриланса",
+            "description": "Начал как фрилансер фронтенд-разработчик. Создавал лендинги с HTML, JS, Sass. Проект: https://github.com/artemstakhov/hadar_front"
+        },
+        {
+            "year": "2023-2025",
+            "title": "CityUnscripted",
+            "description": "Фронтенд-разработчик в CityUnscripted (Украина-Великобритания). Работал с React, Redux, JS, jQuery. Стал ведущим React-разработчиком, занимался дизайном, React Native приложением, тестами на Cypress."
+        },
+        {
+            "year": "2024-2025",
+            "title": "InkoMenu Фриланс",
+            "description": "Тех-лид в InkoMenu (Украина). Разрабатывал админ-панель и клиентский сайт с React, Redux. Занимался переводами, темами, кастомными компонентами."
+        },
+        {
+            "year": "2025",
+            "title": "Переезд в Литву",
+            "description": "Переехал в Литву в сентябре 2025 года, живу в Йонаве, районе Каунаса. Начал изучать n8n и автоматизацию. Создал медиа-ферму с ИИ в Telegram, генерацию видео с транскрипцией."
+        }
+    ],
+    "skills": {
+        "title": "Навыки",
+        "hardSkillsTitle": "Технические навыки",
+        "softSkillsTitle": "Мягкие навыки",
+        "hardSkills": {
+            "Фронтенд": [
+                "React",
+                "Next.js",
+                "React Native",
+                "HTML",
+                "CSS",
+                "Sass",
+                "jQuery",
+                "Tailwind CSS",
+                "JavaScript",
+                "TypeScript"
+            ],
+            "Бэкенд": [
+                "Node.js",
+                "NestJS",
+                "MongoDB",
+                "PostgreSQL",
+                "MySQL",
+                "Express.js"
+            ],
+            "Инструменты и технологии": [
+                "Postman",
+                "Linux",
+                "Git",
+                "GitHub Actions",
+                "Docker",
+                "Автоматизация (n8n)",
+                "Интеграция ИИ"
+            ]
+        },
+        "softSkills": [
+            "Решение проблем",
+            "Коммуникация",
+            "Работа в команде",
+            "Лидерство",
+            "Управление временем",
+            "Адаптивность",
+            "Креативность",
+            "Критическое мышление",
+            "Эмоциональный интеллект",
+            "Управление проектами"
+        ]
     },
-    {
-      "year": "2020-2024",
-      "title": "Бакалавр",
-      "description": "Бакалавр программной инженерии в Ужгородском национальном университете. Общий балл: 75%, Диплом защищен на 5 (90-100%)."
-    },
-    {
-      "year": "2024-2025",
-      "title": "Магистр",
-      "description": "Магистр программной инженерии в Ужгородском национальном университете. Ожидаемый балл около 85%, Диплом будет защищен на 5 (90-100%)."
-    },
-    {
-      "year": "2022",
-      "title": "Начало фриланса",
-      "description": "Начал как фрилансер фронтенд-разработчик. Создавал лендинги с HTML, JS, Sass. Проект: https://github.com/artemstakhov/hadar_front"
-    },
-    {
-      "year": "2023-2025",
-      "title": "CityUnscripted",
-      "description": "Фронтенд-разработчик в CityUnscripted (Украина-Великобритания). Работал с React, Redux, JS, jQuery. Стал ведущим React-разработчиком, занимался дизайном, React Native приложением, тестами на Cypress."
-    },
-    {
-      "year": "2024-2025",
-      "title": "InkoMenu Фриланс",
-      "description": "Тех-лид в InkoMenu (Украина). Разрабатывал админ-панель и клиентский сайт с React, Redux. Занимался переводами, темами, кастомными компонентами."
-    },
-    {
-      "year": "2025",
-      "title": "Переезд в Литву",
-      "description": "Переехал в Литву в сентябре 2025 года, живу в Йонаве, районе Каунаса. Начал изучать n8n и автоматизацию. Создал медиа-ферму с ИИ в Telegram, генерацию видео с транскрипцией."
+    "experience": [
+        {
+            "company": "CityUnscripted",
+            "period": "2023-2025",
+            "role": "Фронтенд-разработчик / Ведущий React-разработчик",
+            "description": "Проектировал и разрабатывал фичи и страницы с/без дизайна. Использовал React, Redux, JS, jQuery. Включал модалы, анимации, адаптивный дизайн. Занимался дизайном, React Native приложением, тестами на Cypress. Стал ведущим для React SPA."
+        },
+        {
+            "company": "InkoMenu",
+            "period": "2024-2025",
+            "role": "Фронтенд-разработчик / Тех-лид",
+            "description": "Проектировал и разрабатывал админ-панель и клиентский сайт с Figma. Использовал React, Redux, JS. Включал переводы, темы, кастомные компоненты, анимации. Ревьюил бэкенд код."
+        },
+        {
+            "company": "Фриланс",
+            "period": "2022",
+            "role": "Фронтенд-разработчик",
+            "description": "Создал лендинг с дополнительной страницей с нуля. Чистый JS, HTML, Sass. Модалы, анимации скролла, адаптивный дизайн. Проект: https://github.com/artemstakhov/hadar_front"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Web-developer",
+            "issuer": "Udemy",
+            "link": "https://www.udemy.com/certificate/UC-1e0e074f-37e0-4005-aae7-49efbb3887c9/"
+        },
+        {
+            "name": "Полный курс React и JavaScript",
+            "issuer": "Udemy",
+            "link": "https://www.udemy.com/certificate/UC-f189ea57-56ba-4c9a-af83-6b5f5f230735/"
+        },
+        {
+            "name": "Понимание TypeScript",
+            "issuer": "Udemy",
+            "link": "https://ua.udemy.com/certificate/UC-0b076ff5-27e0-4d67-a6eb-ed00eac98385/"
+        },
+        {
+            "name": "Успешный стартап: От идеи до масштабирования",
+            "issuer": "Prometheus",
+            "link": "https://certs.prometheus.org.ua/downloads/326f5083a75a4ef2862ca0f0a661ca12/Certificate.pdf"
+        },
+        {
+            "name": "Основы программирования CS50 2019",
+            "issuer": "Prometheus",
+            "link": "https://certs.prometheus.org.ua/downloads/bbb98277eb314698a061446bdbd372fd/Certificate.pdf"
+        }
+    ],
+    "personal": {
+        "interests": [
+            "Психология",
+            "Бизнес",
+            "Чтение",
+            "Смешанные единоборства",
+            "Шахматы",
+            "Спорт",
+            "Технологии",
+            "ИИ"
+        ],
+        "location": "Йонава, район Каунаса, Литва"
     }
-  ],
-  "skills": {
-    "title": "Навыки",
-    "hardSkillsTitle": "Технические навыки",
-    "softSkillsTitle": "Мягкие навыки",
-    "hardSkills": {
-      "Фронтенд": ["React", "Next.js", "React Native", "HTML", "CSS", "Sass", "jQuery", "Tailwind CSS", "JavaScript", "TypeScript"],
-      "Бэкенд": ["Node.js", "NestJS", "MongoDB", "PostgreSQL", "MySQL", "Express.js"],
-      "Инструменты и технологии": ["Postman", "Linux", "Git", "GitHub Actions", "Docker", "Автоматизация (n8n)", "Интеграция ИИ"]
-    },
-    "softSkills": ["Решение проблем", "Коммуникация", "Работа в команде", "Лидерство", "Управление временем", "Адаптивность", "Креативность", "Критическое мышление", "Эмоциональный интеллект", "Управление проектами"]
-  },
-  "experience": [
-    {
-      "company": "CityUnscripted",
-      "period": "2023-2025",
-      "role": "Фронтенд-разработчик / Ведущий React-разработчик",
-      "description": "Проектировал и разрабатывал фичи и страницы с/без дизайна. Использовал React, Redux, JS, jQuery. Включал модалы, анимации, адаптивный дизайн. Занимался дизайном, React Native приложением, тестами на Cypress. Стал ведущим для React SPA."
-    },
-    {
-      "company": "InkoMenu",
-      "period": "2024-2025",
-      "role": "Фронтенд-разработчик / Тех-лид",
-      "description": "Проектировал и разрабатывал админ-панель и клиентский сайт с Figma. Использовал React, Redux, JS. Включал переводы, темы, кастомные компоненты, анимации. Ревьюил бэкенд код."
-    },
-    {
-      "company": "Фриланс",
-      "period": "2022",
-      "role": "Фронтенд-разработчик",
-      "description": "Создал лендинг с дополнительной страницей с нуля. Чистый JS, HTML, Sass. Модалы, анимации скролла, адаптивный дизайн. Проект: https://github.com/artemstakhov/hadar_front"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Web-developer",
-      "issuer": "Udemy",
-      "link": "https://www.udemy.com/certificate/UC-1e0e074f-37e0-4005-aae7-49efbb3887c9/"
-    },
-    {
-      "name": "Полный курс React и JavaScript",
-      "issuer": "Udemy",
-      "link": "https://www.udemy.com/certificate/UC-f189ea57-56ba-4c9a-af83-6b5f5f230735/"
-    },
-    {
-      "name": "Понимание TypeScript",
-      "issuer": "Udemy",
-      "link": "https://ua.udemy.com/certificate/UC-0b076ff5-27e0-4d67-a6eb-ed00eac98385/"
-    },
-    {
-      "name": "Успешный стартап: От идеи до масштабирования",
-      "issuer": "Prometheus",
-      "link": "https://certs.prometheus.org.ua/downloads/326f5083a75a4ef2862ca0f0a661ca12/Certificate.pdf"
-    },
-    {
-      "name": "Основы программирования CS50 2019",
-      "issuer": "Prometheus",
-      "link": "https://certs.prometheus.org.ua/downloads/bbb98277eb314698a061446bdbd372fd/Certificate.pdf"
-    }
-  ],
-  "personal": {
-    "interests": ["Психология", "Бизнес", "Чтение", "Смешанные единоборства", "Шахматы", "Спорт", "Технологии", "ИИ"],
-    "location": "Йонава, район Каунаса, Литва"
-  }
 }
